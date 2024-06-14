@@ -8,6 +8,7 @@ import { api } from '../constans/constans';
 @Injectable({
   providedIn: 'root'
 })
+//http istekleri
 export class HttpService {
 
   constructor(

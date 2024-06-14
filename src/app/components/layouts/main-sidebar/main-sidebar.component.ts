@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
-import { Menus } from '../../../menu';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { FormsModule } from '@angular/forms';
-import { MenuPipe } from '../../../pipes/menu.pipe';
 import { AuthService } from '../../../services/auth.service';
 
 @Component({
