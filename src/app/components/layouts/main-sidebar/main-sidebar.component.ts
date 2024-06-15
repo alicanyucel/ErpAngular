@@ -6,13 +6,12 @@ import { AuthService } from '../../../services/auth.service';
 @Component({
   selector: 'app-main-sidebar',
   standalone: true,
-  imports: [RouterLink, RouterLinkActive, FormsModule, MenuPipe],
+  imports: [RouterLink, RouterLinkActive, FormsModule,],
   templateUrl: './main-sidebar.component.html',
   styleUrl: './main-sidebar.component.css'
 })
 export class MainSidebarComponent {
   search: string = "";
-  menus = Menus;
 
   constructor(
     public auth: AuthService
