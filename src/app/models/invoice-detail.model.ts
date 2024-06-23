@@ -1,5 +1,6 @@
 import { DepotModel } from "./depot.model";
 import { ProductModel } from "./product.model";
+
 export class InvoiceDetailModel{
     id: string = "";
     InvoiceId: string = "";

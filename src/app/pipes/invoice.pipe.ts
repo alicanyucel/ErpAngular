@@ -18,4 +18,5 @@ export class InvoicePipe implements PipeTransform {
       p.date.includes(search)
     );
   }
+
 }

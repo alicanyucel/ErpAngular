@@ -1,6 +1,5 @@
 import { ProductModel } from "./product.model";
 
-
 export class OrderDetailModel{
     id: string = "";
     orderId: string = "";

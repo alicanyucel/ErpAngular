@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+a{
+    cursor: pointer;
+}
+
+.me-1{
+    margin-right: 5px;
+}
+
+.me-2{
+    margin-right: 7px;
+}

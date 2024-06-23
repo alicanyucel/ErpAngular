@@ -1,5 +1,5 @@
 {
-  "name": "erp-projesi",
+  "name": "erpclient",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -18,16 +18,17 @@
     "@angular/platform-browser": "^17.3.0",
     "@angular/platform-browser-dynamic": "^17.3.0",
     "@angular/router": "^17.3.0",
-    "admin-lte": "3.2",
+    "@sweetalert2/ngx-sweetalert2": "^12.3.0",
+    "form-validate-angular": "^17.0.1",
     "jwt-decode": "^4.0.0",
     "rxjs": "~7.8.0",
-    "sweetalert2": "^11.11.1",
+    "tr-currency": "^1.0.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^17.3.6",
-    "@angular/cli": "^17.3.6",
+    "@angular-devkit/build-angular": "^17.3.5",
+    "@angular/cli": "^17.3.5",
     "@angular/compiler-cli": "^17.3.0",
     "@types/jasmine": "~5.1.0",
     "jasmine-core": "~5.1.0",

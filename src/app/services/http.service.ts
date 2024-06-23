@@ -1,14 +1,13 @@
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { api } from '../constants';
 import { ResultModel } from '../models/result.model';
 import { AuthService } from './auth.service';
 import { ErrorService } from './error.service';
-import { api } from '../constans/constans';
 
 @Injectable({
   providedIn: 'root'
 })
-//http istekleri
 export class HttpService {
 
   constructor(

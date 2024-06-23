@@ -3,9 +3,34 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ErpProjesi": {
+    "ERPClient": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:class": {
+          "skipTests": true
+        },
+        "@schematics/angular:component": {
+          "skipTests": true
+        },
+        "@schematics/angular:directive": {
+          "skipTests": true
+        },
+        "@schematics/angular:guard": {
+          "skipTests": true
+        },
+        "@schematics/angular:interceptor": {
+          "skipTests": true
+        },
+        "@schematics/angular:pipe": {
+          "skipTests": true
+        },
+        "@schematics/angular:resolver": {
+          "skipTests": true
+        },
+        "@schematics/angular:service": {
+          "skipTests": true
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -13,7 +38,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/erp-projesi",
+            "outputPath": "dist/erpclient",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -57,10 +82,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ErpProjesi:build:production"
+              "buildTarget": "ERPClient:build:production"
             },
             "development": {
-              "buildTarget": "ErpProjesi:build:development"
+              "buildTarget": "ERPClient:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -68,7 +93,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "ErpProjesi:build"
+            "buildTarget": "ERPClient:build"
           }
         },
         "test": {
@@ -93,6 +118,6 @@
     }
   },
   "cli": {
-    "analytics": "b41bcbd8-5cdc-4bc4-b732-14f401cd1082"
+    "analytics": "cba424a8-4fb2-41ab-b358-4b2b8ab0285d"
   }
 }
